@@ -1,0 +1,39 @@
+/* Gaya umum untuk desktop */
+.btnktg {
+    width: 52%;
+}
+
+/* Media query untuk perangkat dengan lebar kurang dari atau sama dengan 768px (handphone) */
+@media (max-width: 768px) {
+    .btnktg {
+        width: 100%; /* Atur lebar tombol menjadi 100% untuk handphone */
+    }
+}
+
+.imgktg {
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .imgktg {
+        margin-top: 30%; /* Atur lebar tombol menjadi 100% untuk handphone */
+    }
+}
+
+.imgktg2 {
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .imgktg2 {
+        margin-top: 28%; /* Atur lebar tombol menjadi 100% untuk handphone */
+    }
+}
+
+.btnktg {
+    outline: auto;
+}
+
+.divktg {
+    border-radius: 5%;
+}
