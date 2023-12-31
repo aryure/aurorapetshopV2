@@ -2,7 +2,7 @@
 
 ## Install Project Ini
 
-- Composer Install
+- Composer Install / composer update
 - npm install bootstrap
 - composer require nesbot/carbon
 
