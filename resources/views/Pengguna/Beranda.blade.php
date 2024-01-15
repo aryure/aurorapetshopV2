@@ -134,9 +134,9 @@
                             <img class="img-fluid" src="/img/ktg1.png" alt="">
                         </div>
                         <div class="col-7 mt-2 mt-md-4">
-                            <a>Never make your pet hungry</a>
-                            <h2>Pet Food</h2>
-                            <a class="btn btn-success" type="button">Buy Now</a>
+                            <a>Berikan yang Terbaik</a>
+                            <h2>Perlengkapan</h2>
+                            <a class="btn btn-success" type="button">Beli Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -148,9 +148,9 @@
                             <img class="img-fluid imgktg" src="/img/ktg2.png" alt="">
                         </div>
                         <div class="col-7 mt-3">
-                            <a>Help Them to find happiness</a>
-                            <h2>Adoption</h2>
-                            <a class="btn btn-success" type="button">New Home</a>
+                            <a>Bantu mereka mencari rumah baru</a>
+                            <h2>Adopsi</h2>
+                            <a class="btn btn-success" type="button">Adopsi Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -166,9 +166,9 @@
                             <img class="imgktg2 img-fluid" src="/img/ktg3.png" alt="">
                         </div>
                         <div class="col-7 mt-md-5 mt-3">
-                            <a>Your pet need staycation too</a>
+                            <a>Hewan anda perlu liburan juga</a>
                             <h2>Pet Hotel</h2>
-                            <a class="btn btn-success" type="button">Book Now</a>
+                            <a class="btn btn-success" type="button">Lihat Tanggal</a>
                         </div>
                     </div>
                 </div>
@@ -179,10 +179,10 @@
                         <div class="col-5">
                             <img class="img-fluid" src="/img/ktg4.png" alt="">
                         </div>
-                        <div class="col-7 mt-md-5 mt-3">
-                            <a>Always be aware of your animal health </a>
+                        <div class="col-7 mt-md-4 mt-1">
+                            <a>Pastikan kesehatan hewan anda</a>
                             <h2>Pet Health</h2>
-                            <a class="btn btn-success" type="button">Reserve Now</a>
+                            <a class="btn btn-success" type="button">Cek Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -216,10 +216,14 @@
         </div>
     </div>
     <!-- End Banner 2 -->
+
+    <!-- Movie List Start -->
+    
+    <!-- Movie List End -->
     
 
     <!-- Start Footer -->
-    {{-- @include('Layout.Pengguna-Layout.Footer') --}}
+    @include('Layout.Pengguna-Layout.Footer')
     <!-- End Footer -->
 
     <!-- Start Script -->

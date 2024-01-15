@@ -1,3 +1,11 @@
+.font-navbar {
+    color: black;
+}
+
+.navfont:hover {
+    color: green;
+}
+
 /* Gaya umum untuk desktop */
 .btnktg {
     width: 52%;
@@ -36,4 +44,34 @@
 
 .divktg {
     border-radius: 5%;
+}
+
+.wrapper{
+   margin-left: 20%;
+}
+
+.wrapper .item{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    background-color: rgba(202, 202, 202, 0.738);
+}
+
+.movie-card {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.movie-card img {
+    width: 70%;
+    height: 70%;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.movie-card:hover img {
+    transform: scale(1.1);
 }
